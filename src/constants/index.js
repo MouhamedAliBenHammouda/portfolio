@@ -15,14 +15,18 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
+  SwiftCode,
+  RelaySky,
+  bs,
   tesla,
-  shopify,
-  carrent,
+  Htsoft,
+  Award,
   jobit,
   tripguide,
   threejs,
+  kamel,
+  oussama,
+  rim,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Back-End Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full-Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -116,89 +120,84 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full-stack Developer",
+    company_name: "Business Soccer",
+    icon: bs,
+    iconBg: "#fcfcfcff",
+    date: "Nov 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed end-to-end features using React (TypeScript) on the front-end and Laravel on the back-end, deployed in a Docker environment. ",
+      "Integrated Stripe for seamless subscription payments, including the setup of Stripe webhooks to handle payment confirmations, renewals, and cancellations.",
+      "Implemented CI/CD pipelines for automated testing and deployment, ensuring code quality and rapid releases.",
+      "Integrated RESTful APIs and Stripe payment solutions to streamline the subscription process and enhance user experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Odoo Developer ",
+    company_name: "Relay Sky",
+    icon: RelaySky,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2024 - Nov 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a custom Odoo CRM module for call center operations, enabling direct call initiation from customer records.",
+      "Integrated Odoo with Asterisk via SIP for real-time call management (call creation, tracking, recordings).",
+      "Configured Nginx with WebSocket to ensure real-time, bidirectional communication between Odoo (Python) and the Asterisk server.",
+      "Customized front-end components using JavaScript, XML/QWeb, and Python on the back-end.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Full-stack Developer Internship",
+    company_name: "Htsoft",
+    icon: Htsoft,
+    iconBg: "#ffffffff",
+    date: "Jan 2024 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed an innovative website for managing ISO standards, audit results, and non-conformity statistics, facilitating the centralization and efficient management of quality data.",
+      "Developed a general function that allows the creation of multiple tables in a reduced time, thus optimizing data processing and improving operational efficiency.",
+      "Translated the website into eight languages, making the site accessible to an international audience and facilitating global adoption.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    title: "Full-stack Developer Internship",
+    company_name: "SwiftCode",
+    icon: SwiftCode,
+    iconBg: "#000000ff",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a comprehensive banking application, including account management and transaction history. ",
+      "Integrated a financial management dashboard that allows users to track, manage, and analyze their financial activities with real-time data visualization.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial:"Mohamed consistently demonstrated excellent professionalism and strong competence in  his responsibilities",
+    name: "Kamel Mouelhi",
+    designation: "CEO",
+    company: "Busines Soccer",
+    image: kamel,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I've never met a web developer who truly cares about their clients' success like Mohamed Ali.",
+    name: "Oussama Mellouli",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Htsoft",
+    image: oussama,
+  },
+  {
+    testimonial:"I thought it was impossible to make a website as beautiful as our product, but ali proved me wrong.",
+    name: "Rim Ben Hamed",
+    designation: "RAM",
+    company: "Relay Sky",
+    image: rim,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Award-Winning Landing Page",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -215,7 +214,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Award,
     source_code_link: "https://github.com/",
   },
   {

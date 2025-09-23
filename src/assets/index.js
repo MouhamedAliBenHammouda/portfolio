@@ -21,12 +21,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import SwiftCode from "./company/SwiftCode.png";
+import Htsoft from "./company/Htsoft.png";
+import RelaySky from "./company/RelaySky.png";
+import bs from "./company/bs.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import kamel from "./testimonials/kamel.jpg";
+import oussama from "./testimonials/oussama.png";
+import rim from "./testimonials/rim.png";
+
+import Award from "./Award.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -52,11 +57,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
+  SwiftCode,
+  Htsoft,
+  RelaySky,
+  bs,
   tesla,
-  carrent,
+  kamel,
+  oussama,
+  rim,
+  Award,
   jobit,
   tripguide,
 };
