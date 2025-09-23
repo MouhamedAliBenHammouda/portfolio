@@ -33,6 +33,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
+    console.log("email",form.email)
     e.preventDefault();
     setLoading(true);
 

@@ -18,9 +18,10 @@ import {
   SwiftCode,
   RelaySky,
   bs,
-  tesla,
   Htsoft,
   Award,
+  travel,
+  iphone,
   jobit,
   tripguide,
   threejs,
@@ -197,16 +198,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Award-Winning Landing Page",
+    name: "Redefin Landing Page",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I designed and developed a fully animated landing page using React.js, Tailwind CSS, and GSAP. The goal was to create a modern, interactive, and visually engaging website that delivers an immersive user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "GSAP",
         color: "green-text-gradient",
       },
       {
@@ -215,49 +216,50 @@ const projects = [
       },
     ],
     image: Award,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MouhamedAliBenHammouda/Award/tree/main",
   },
   {
-    name: "Job IT",
+    name: "iPhone 15 Landing Page",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I recreated the Apple iPhone 15 Pro website by combining smooth GSAP animations with Three.js 3D effects. The project features custom animations and animated 3D models.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+                  {
+        name: "GSAP",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: iphone,
+    source_code_link: "https://github.com/MouhamedAliBenHammouda/iphone",
   },
   {
-    name: "Trip Guide",
+    name: "Travel App Landing Page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I built a modern travel application using Next.js 13, React.js, and Tailwind CSS, focusing on delivering a sleek and responsive user interface. The app follows mobile-first best practices.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: travel,
+    source_code_link: "https://github.com/MouhamedAliBenHammouda/Travel",
   },
 ];
 
